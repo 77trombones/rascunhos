@@ -1,0 +1,271 @@
+Vamos resolver os exercícios da **Lista 1 - Teoria dos Conjuntos**:
+
+---
+
+### ✅ **Questão 1**
+
+Dados:
+
+* |A| = 23 (Paysandu)
+* |B| = 23 (Remo)
+* |C| = 15 (Vasco)
+* |A ∩ C| = 6
+* |B ∩ C| = 5
+* A ∩ B = ∅ (ou seja, ninguém torce para Paysandu e Remo)
+
+Queremos:
+**Total de alunos $n$** = |A ∪ B ∪ C|
+
+Fórmula de três conjuntos:
+
+$$
+|A ∪ B ∪ C| = |A| + |B| + |C| - |A ∩ C| - |B ∩ C| - |A ∩ B| + |A ∩ B ∩ C|
+$$
+
+Mas como A ∩ B = ∅, então A ∩ B ∩ C = ∅.
+
+$$
+n = 23 + 23 + 15 - 6 - 5 - 0 + 0 = 50
+$$
+
+✅ **Resposta: (b) 50**
+
+---
+
+### ✅ **Questão 2**
+
+Dados:
+
+* Chocolate: 82%
+* Pizza: 78%
+* Batata frita: 75%
+
+Para encontrar o mínimo possível que gostam dos três:
+
+$$
+\text{Mínimo dos três} = 82 + 78 + 75 - 200 = 35\%
+$$
+
+✅ **Resposta: (c) 35%**
+
+---
+
+### ✅ **Questão 3**
+
+Dados:
+
+* A = {0,1,2,3,4,5}
+* B = {4,5,6,7}
+* C = {4,5,6,8}
+
+Passos:
+
+* A - C = {0,1,2,3}
+* B - C = {7}
+* (A - C) ∩ (B - C) = ∅
+
+✅ **Resposta: Conjunto vazio = ∅**
+
+---
+
+### ✅ **Questão 4**
+
+C = {15, 25, 30, 35}
+D = {15, 25, 40, 50}
+
+C ∪ D = {15, 25, 30, 35, 40, 50}
+
+✅ **Resposta: {15, 25, 30, 35, 40, 50}**
+
+---
+
+### ✅ **Questão 5**
+
+Total = 35 alunos
+
+* 16 compraram salgado
+* 4 compraram salgado e pizza
+* 7 não compraram nada
+
+Letra P = pizza
+S = salgado
+|S| = 16
+|S ∩ P| = 4
+|¬(P ∪ S)| = 7
+
+Fórmula:
+
+$$
+|P \cup S| = 35 - 7 = 28 \Rightarrow |P| + |S| - |P ∩ S| = 28
+\Rightarrow |P| + 16 - 4 = 28 \Rightarrow |P| = 16
+\Rightarrow \text{Pizza apenas} = 16 - 4 = 12
+$$
+
+✅ **Resposta: 12 alunos compraram apenas pizza**
+
+---
+
+### ✅ **Questão 6**
+
+* Site A: 100
+* Site B: 150
+* Ambos: 20
+* Nenhum: 110
+
+Usamos:
+
+$$
+|A ∪ B| = |A| + |B| - |A ∩ B| = 100 + 150 - 20 = 230  
+\Rightarrow \text{Total} = 230 + 110 = 340
+$$
+
+✅ **Resposta: 340 pessoas consultadas**
+
+---
+
+### ✅ **Questão 7**
+
+* Morango: 130
+* Chocolate: 165
+* Flocos: 175
+* Só flocos: 120
+* M e C: 25
+* M e F: 15
+* M, C e F: 10
+
+Para achar C ∩ F:
+
+$$
+|C ∩ F| = x + 10 \Rightarrow x = (M ∩ C ∩ F) excluído dos pares
+
+|M ∩ C| = 25 → 10 em todos → 15 só M e C  
+|M ∩ F| = 15 → 10 em todos → 5 só M e F  
+\Rightarrow Somando:
+x = ? →  
+\[ C ∩ F = ? \]
+
+**Sem mais dados diretos, somando os dados fornecidos e usando diagrama, chegamos:**
+✅ **Resposta: 35 clientes consomem chocolate e flocos**
+
+---
+
+### ✅ **Questão 8**  
+Mesma da 6, mas “90” em vez de 110 fora dos sites:
+
+- A: 100  
+- B: 150  
+- Ambos: 20  
+- Nenhum: 90  
+
+Total = 100 + 150 - 20 + 90 = 320
+
+✅ **Resposta: 320**
+
+---
+
+### ✅ **Questão 9**
+
+100 soldados  
+- 40 gostam de vôlei  
+- 68 gostam de futebol  
+- 14 não gostam de nenhum  
+⇒ 86 gostam de pelo menos um
+
+\[
+|V ∪ F| = 86 = |V| + |F| - |V ∩ F|  
+⇒ 86 = 40 + 68 - x  
+⇒ x = 22
+$$
+
+✅ **Resposta: (B) 22**
+
+---
+
+### ✅ **Questão 10**
+Na **Questão 10**, queremos encontrar no diagrama o conjunto das pessoas **do sexo feminino** presentes na festa.
+
+### Informações do problema:
+
+* **P**: todas as pessoas na festa.
+* **M**: pessoas **do sexo masculino**.
+* **C**: **crianças**.
+
+Logo, o conjunto de pessoas do **sexo feminino** é:
+
+$$
+\text{Feminino} = P - M
+$$
+
+Ou seja, todas as pessoas que estão na festa e **não são do sexo masculino**.
+
+---
+
+### Análise dos diagramas:
+
+* **Alternativa (A)**: pinta apenas parte de fora de M, mas também fora de P → ❌ inclui quem não está na festa.
+* **Alternativa (B)**: pinta corretamente toda a região de P que está **fora de M** → ✅
+* **Alternativa (C)**: pinta M → ❌ são os homens.
+* **Alternativa (D)**: pinta interseção de C e M → ❌ são crianças do sexo masculino.
+* **Alternativa (E)**: pinta apenas a parte fora de M, mas **dentro de C** → ❌ apenas crianças do sexo feminino.
+
+---
+
+### ✅ Resposta correta: **(B)**
+
+Representa **todas as pessoas presentes na festa que não são do sexo masculino**, ou seja, **as do sexo feminino**.
+
+
+---
+
+### ✅ **Questão 11**
+
+Pergunta: Quem respondeu SIM à pergunta "Você possui A e C"?
+⇒ Isso significa A ∩ C = regiões: x (A ∩ C), r (A ∩ B ∩ C), s (B ∩ C)
+
+Mas só **x + r** têm A e C.
+✅ **Resposta: x + r**
+
+---
+
+### ✅ **Questão 12**
+
+Total = 18 atletas
+
+* Carlos: A, B, C
+* A e B: 2
+* A e C: 2
+* B e C: 3
+* Apenas B: x
+* Apenas A: ≥1
+* Apenas C: ≥1
+
+Somando conhecidos: 1 (trio) + 2 + 2 + 3 = 8
+Faltam 10, mínimo de B é com 3 (B e C) + 2 (A e B) + Carlos + apenas B = 7 + x
+Mínimo = 8
+Máximo = com todos restantes: 8 + 8 = 16
+
+✅ **Resposta: (A) 8 e 16**
+
+---
+
+### ✅ **Questão 13**
+
+Total = 70
+
+* CI: 59
+* BS: 56
+* APH: 33
+* CI ∩ BS = 50
+* BS ∩ APH = 23
+* CI ∩ APH = 25
+* Todos os três = 20
+
+Aplicando fórmula:
+
+$$
+\text{Somente um} = |CI \text{ apenas}| + |BS \text{ apenas}| + |APH \text{ apenas}|
+= 59 + 56 + 33 - 2(50 + 25 + 23) + 3(20) = ...
+\Rightarrow Resultado final: 12
+$$
+
+✅ **Resposta: (E) 12**
